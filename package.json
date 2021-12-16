@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "node app"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/shellyst/Jest-Another-RPG/issues"
   },
-  "homepage": "https://github.com/shellyst/Jest-Another-RPG#readme"
+  "homepage": "https://github.com/shellyst/Jest-Another-RPG#readme",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
 }
